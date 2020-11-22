@@ -1,0 +1,48 @@
+{
+  "name": "TODO",
+  "description": "TODO",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build --legacy",
+    "export": "sapper export --legacy",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^5.0.1",
+    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "compression": "^1.7.1",
+    "lodash.debounce": "^4.0.8",
+    "polka": "next",
+    "popper.js": "^1.16.1",
+    "sirv": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.0.0",
+    "@rollup/plugin-babel": "^5.0.0",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@rollup/plugin-replace": "^2.2.0",
+    "@types/node": "^14.0.20",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.3.4",
+    "rollup-plugin-svelte": "^5.0.1",
+    "rollup-plugin-terser": "^5.3.0",
+    "sapper": "^0.27.0",
+    "sass": "^1.27.0",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^4.0.6",
+    "tslib": "^2.0.3",
+    "typescript": "^3.9.6"
+  }
+}

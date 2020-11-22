@@ -1,0 +1,32 @@
+@import "./sass/vars";
+
+// nav
+$nav--z-index: 100;
+$nav--background: transparentize(color(background), 0.1);
+$nav--color: color(text);
+
+// nav-link
+$nav-link--background: transparent;
+$nav-link--color: inherit;
+$nav-link--font: unit(1) font(sans);
+$nav-link--text-transform: uppercase;
+@mixin nav-link--active {
+    background: transparentize(color(secondary, dark), 0.5);
+    border-bottom: color(background);
+}
+@mixin nav-link--hover {
+    background: transparentize(color(secondary), 0.5);
+}
+@mixin nav-link--mobile {
+    font-size: unit(2);
+}
+@mixin nav-link--current {
+    @media screen and (min-width: $break) {
+        border-bottom: 2px solid;
+    }
+}
+
+// transition
+$transition--duration-short: 0.2s;
+$transition--duration: 0.3s;
+$transition--duration-long: 0.4s;

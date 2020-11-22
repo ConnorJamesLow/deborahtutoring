@@ -1,0 +1,47 @@
+@use 'sass:map';
+$unit: 16px;
+$break: 720px;
+$serif: "Cormorant Garamond", serif;
+$sans: "Lato", sans-serif;
+$fonts: (
+    serif: $serif,
+    sans: $sans,
+);
+$palette: (
+    primary: (
+        normal: #bdbdbd,
+        light: #efefef,
+        dark: #8d8d8d,
+        transparent: #f8bbd080,
+    ),
+    secondary: (
+        normal: #e0e0e0,
+        light: #ffffff,
+        dark: #aeaeae,
+        transparent: #e0e0e080,
+    ),
+    text: (
+        normal: #0a0a0a,
+        light: #383838,
+        dark: #000000,
+        transparent: #0a0a0a80,
+    ),
+    background: (
+        normal: #fafafa,
+        light: #ffffff,
+        dark: #c7c7c7,
+        transparent: #fafafa80,
+    ),
+);
+
+@function color($c, $v: "normal") {
+    @return map.get($palette, $c, $v);
+}
+
+@function font($name) {
+    @return map.get($fonts, $name);
+}
+
+@function unit($n) {
+    @return $n * $unit;
+}
