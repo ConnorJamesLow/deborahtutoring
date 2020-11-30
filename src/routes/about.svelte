@@ -71,29 +71,27 @@
                 My passion for teaching began at a young age. I became inspired
                 by my own teachers who were patient with me whenever I got stuck
                 on a problem and wasn’t sure what to do. They knew how to
-                encourage and motivate me when I didn’t understand something. I
-                built strong relationships with my teachers and they became
-                positive role models in my life. My favorite part about tutoring
-                is that I get to help students build confidence in learning new
-                skills. I care about my students’ success and helping them
-                achieve their goals. I am good at adapting to various learning
-                styles and paying attention to detail. I know how to organize,
-                prioritize, and execute tasks to meet deadlines. I enjoy
-                collaborating with students to solve problems together! I
-                specialize in tutoring math but also have experience tutoring
-                other subjects as well. If there’s a different subject you need
-                tutoring for, feel free to ask! I might be able to help!
+                encourage and motivate me when I didn’t understand something. My
+                favorite part about tutoring is that I get to help students
+                build confidence in learning new skills. I care about my
+                students’ success and helping them achieve their goals. I excel
+                in attention to detail and can adapt to my students' learning
+                styles. I enjoy collaborating with students to solve problems
+                together! I specialize in tutoring math but also have experience
+                tutoring other subjects. If there’s a different subject you need
+                tutoring for, feel free to ask! I would love to see how I can
+                help.
             </p>
             <hgroup>
                 <h1>Education</h1>
             </hgroup>
             <ul>
                 <li>
-                    B.S., Mathematics Education,
-                    Pacific Lutheran University
+                    B.S., Mathematics Education, Pacific Lutheran University
                 </li>
                 <li>
-                    M.A.E., Secondary Teacher Certification (Endorsement: Mathematics),
+                    M.A.E., Secondary Teacher Certification (Endorsement:
+                    Mathematics),
                     <br />Pacific Lutheran University
                 </li>
             </ul>
@@ -101,13 +99,20 @@
                 <h1>Experience</h1>
             </hgroup>
             <ul>
-                <li>K-8 Study Zone Tutor, KCLS</li>
+                <li>K-8 Study Zone Tutor, King County Library System</li>
                 <li>K-5 Korean Summer School Tutor</li>
-                <li>Middle School Homework Program Tutor, FWPS</li>
-                <li>College Writing Consultant, HC</li>
-                <li>Elementary Afterschool Program Assistant, PSESD</li>
-                <li>High School Student Teacher, TPS</li>
-                <li>7th grade Math Teacher, FWPS</li>
+                <li>Homework Program Tutor, Sacajawea Middle School</li>
+                <li>Writing Consultant, Highline College</li>
+                <li>
+                    After School Program Coordinator, Christ's Church Federal
+                    Way
+                </li>
+                <li>
+                    Elementary After School Program Assistant, Puget Sound
+                    Educational Service District
+                </li>
+                <li>High School Student Teacher, Tacoma Public Schools</li>
+                <li>7th grade Math Teacher, Federal Way Public Schools</li>
             </ul>
         </div>
     </div>

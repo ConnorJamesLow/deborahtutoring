@@ -4,6 +4,7 @@
     import Icon from "./Icon.svelte";
 
     let name: string = "";
+    let grade: string = "";
     let email: string = "";
     let phone: string = "";
     let comments: string = "";

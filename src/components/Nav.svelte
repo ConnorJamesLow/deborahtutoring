@@ -127,6 +127,7 @@
 	<ul>
 		<NavLink current={!segment} href="/">work</NavLink>
 		<NavLink current={segment === 'about'} href="/about">about</NavLink>
-		<NavLink current={segment === 'book'} href="/book">book</NavLink>
+		<NavLink current={segment === 'faq'} href="/faq">info</NavLink>
+		<NavLink action current={segment === 'book'} href="/book">book</NavLink>
 	</ul>
 </nav>

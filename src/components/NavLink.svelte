@@ -1,6 +1,11 @@
 <script lang="ts">
+    import store from "../store";
+
     export let href: string;
     export let current: boolean;
+    export let action: boolean = false;
+
+    const { nav } = store;
 </script>
 
 <style lang="scss">
@@ -45,9 +50,44 @@
     .current {
         @include nav-link--current;
     }
+
+    @media (min-width: $break) {
+        .action {
+            margin-left: unit(1);
+            transition: opacity;
+
+            > a {
+                padding-left: unit(3);
+                padding-right: unit(3);
+            }
+
+            color: color(background);
+            &.dark {
+                color: color(text);
+            }
+
+            &:not(.current) {
+                background: color(text);
+                &.dark {
+                    background: color(background);
+                }
+            }
+
+            &.current {
+                background: color(text, transparent);
+                &.dark {
+                    background: color(background, transparent);
+                }
+            }
+
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+    }
 </style>
 
-<li class:current>
+<li class:current class:action class:dark={$nav === 'dark'}>
     <a {href} aria-current={current && 'page'}>
         <slot />
     </a>

@@ -17,7 +17,7 @@
     <Header>
         Start Learning
         <span slot="sub">
-            Contact me to schedule your free tutoring session.
+            Contact me to schedule your first tutoring session.
         </span>
     </Header>
     <Container>

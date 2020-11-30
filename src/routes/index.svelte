@@ -60,8 +60,7 @@ let iconSize = 48;
                 </span>
                 <Highlight title="Online & In-Person.">
                     Learn from the comfort of your own home or choose where we
-                    meet. We can wear masks and stay 6 ft. apart during our
-                    lesson to stay safe.
+                    meet. *Temporarily, all of our sessions are now over Zoom.
                 </Highlight>
             </div>
             <div>
@@ -78,9 +77,8 @@ let iconSize = 48;
                 <span>
                     <Icon path="emoji-smile" size={iconSize} />
                 </span>
-                <Highlight title="Risk Free.">
-                    The first lesson is free! I want to make sure that you get
-                    the kind of help you need and find what works best for you.
+                <Highlight title="Cancel Anytime.">
+                    You have the option to cancel your lesson if you find that you don't need the help after all.
                 </Highlight>
             </div>
             <div>
@@ -100,7 +98,7 @@ let iconSize = 48;
         <Header>
             Start Learning
             <span slot="sub">
-                Contact me to schedule your free tutoring session.
+                Contact me to schedule your first tutoring session.
             </span>
         </Header>
         <Contact />
